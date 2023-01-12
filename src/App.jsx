@@ -21,7 +21,7 @@ export default function App() {
     const currentSlide = document.querySelector(`[data-index="${activeIndex}"]`)
 
     const nextSlide = document.querySelector(`[data-index="${nextIndex}"]`)
-          
+    
     currentSlide.dataset.status = "after"
     
     nextSlide.dataset.status = "becoming-active-from-before"
